@@ -1,0 +1,54 @@
+create table has_skill (
+	person_id INT REFERENCES Person(person_id),
+	k_code VARCHAR(7),
+    PRIMARY KEY(person_id, k_code)
+);
+insert into has_skill (person_id, k_code) values (18, '15-1133');
+insert into has_skill (person_id, k_code) values (19, '15-1143');
+insert into has_skill (person_id, k_code) values (11, '15-1133');
+insert into has_skill (person_id, k_code) values (14, '15-1121');
+insert into has_skill (person_id, k_code) values (4, '15-1134');
+insert into has_skill (person_id, k_code) values (23, '15-1117');
+insert into has_skill (person_id, k_code) values (30, '15-1100');
+insert into has_skill (person_id, k_code) values (2, '15-1132');
+insert into has_skill (person_id, k_code) values (18, '15-1142');
+insert into has_skill (person_id, k_code) values (22, '15-1143');
+insert into has_skill (person_id, k_code) values (26, '15-1143');
+insert into has_skill (person_id, k_code) values (26, '15-1122');
+insert into has_skill (person_id, k_code) values (12, '15-1141');
+insert into has_skill (person_id, k_code) values (15, '15-1142');
+insert into has_skill (person_id, k_code) values (1, '15-1142');
+insert into has_skill (person_id, k_code) values (10, '15-1134');
+insert into has_skill (person_id, k_code) values (29, '15-1133');
+insert into has_skill (person_id, k_code) values (4, '15-1100');
+insert into has_skill (person_id, k_code) values (9, '15-1143');
+insert into has_skill (person_id, k_code) values (19, '15-1122');
+insert into has_skill (person_id, k_code) values (25, '15-1113');
+insert into has_skill (person_id, k_code) values (26, '15-1100');
+insert into has_skill (person_id, k_code) values (11, '15-1116');
+insert into has_skill (person_id, k_code) values (9, '15-1122');
+insert into has_skill (person_id, k_code) values (21, '15-1121');
+insert into has_skill (person_id, k_code) values (2, '15-1134');
+insert into has_skill (person_id, k_code) values (20, '15-1114');
+insert into has_skill (person_id, k_code) values (8, '15-1114');
+insert into has_skill (person_id, k_code) values (17, '15-1132');
+insert into has_skill (person_id, k_code) values (17, '15-1100');
+insert into has_skill (person_id, k_code) values (22, '15-1131');
+insert into has_skill (person_id, k_code) values (17, '15-1143');
+insert into has_skill (person_id, k_code) values (29, '15-1142');
+insert into has_skill (person_id, k_code) values (30, '15-1113');
+insert into has_skill (person_id, k_code) values (3, '15-1114');
+insert into has_skill (person_id, k_code) values (25, '15-1115');
+insert into has_skill (person_id, k_code) values (15, '15-1141');
+insert into has_skill (person_id, k_code) values (2, '15-1131');
+insert into has_skill (person_id, k_code) values (6, '15-1114');
+insert into has_skill (person_id, k_code) values (10, '15-1122');
+insert into has_skill (person_id, k_code) values (20, '15-1113');
+insert into has_skill (person_id, k_code) values (20, '15-1132');
+insert into has_skill (person_id, k_code) values (30, '15-1133');
+insert into has_skill (person_id, k_code) values (11, '15-1113');
+insert into has_skill (person_id, k_code) values (30, '15-1115');
+insert into has_skill (person_id, k_code) values (12, '15-1133');
+insert into has_skill (person_id, k_code) values (4, '15-1121');
+insert into has_skill (person_id, k_code) values (20, '15-1121');
+insert into has_skill (person_id, k_code) values (25, '15-1143');
