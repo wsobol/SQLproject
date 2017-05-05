@@ -22,7 +22,7 @@ public class TUI{
 //input option choice
   public void option(int inputOption){
     if(inputOption == 1) queryRunner();
-    else if(inputOption == 2) dataChangeRunner();
+    else if(inputOption == 2) Modifier();
   }
 //queries
   public void queryRunner(){
@@ -31,22 +31,23 @@ public class TUI{
     do{
       System.out.println("Enter '0' to exit or '8-28' to run a specific query");
       choice = input.nextInt();
-      if(choice > 8 && choice <= 28){
+      if(choice >= 8 && choice <= 28){
           query.runQuery(choice);
       }
     }while(choice != 0);
   }
 
   //table modifier
-  public void dataChangeRunner(){
+  public void Modifier (){
     int choice;
     DataModifier changeData = new DataModifier(connection);
     do{
-      System.out.println("Enter '0' to exit \n '1' for Person \n '2' for Job \n '3' for Job Category \n or '4' for Course");
+      System.out.println("Enter '0' to exit \n '1' Person \n '2' Job \n '3' Job Category \n or '4' Course");
       choice = input.nextInt();
       if(choice > 0 && choice <= 4){
         changeData.change(choice);
       }
-    }while(choice != 0);
+    }
+    while(choice != 0);
   }
 }

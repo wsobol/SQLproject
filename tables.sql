@@ -134,6 +134,8 @@ create table Section (
 	sec_id INT PRIMARY KEY,
 	semester VARCHAR(6),
 	yr VARCHAR(4),
+    completion_date DATE,
+	price VARCHAR(50),
 	course_id INT REFERENCES Course(course_id)
 );
 
